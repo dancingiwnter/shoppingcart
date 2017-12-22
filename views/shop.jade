@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	h1=title
+	form(name="shoppinglist", method="post")
+		div(class="table")
+			each item in groceries
+				div.foo(class="row")
+					each col, colname in item
+						div.foo(class="cell" ).
+							#{col}
+					td
+						|&nbsp x 
+					td
+						input(type="text", id=item.name, name=item.name, pattern="^[0-9]*$", value=0, required)
+		input(class="generalButton",type="submit", class="info", id="submitButton", name="submitButton", value="Submit")

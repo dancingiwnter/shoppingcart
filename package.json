@@ -1,0 +1,24 @@
+{
+  "name": "shoppingcart",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "app": "*",
+    "body-parser": "*",
+    "bootstrap": "^3.3.6",
+    "express": "*",
+    "formidable": "*",
+    "http": "*",
+    "jade": "*",
+    "method-override": "*",
+    "path": "*",
+    "routes": "*",
+    "serve-favicon": "*",
+    "serve-static": "*",
+    "user": "*",
+    "util": "*"
+  }
+}

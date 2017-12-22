@@ -1,0 +1,24 @@
+{
+	"unit" : "ct", 
+	"fruits": {
+		"Apple": {
+			"price": 25,
+			"promotion": null		 
+		},
+		"Oranges": {		
+			"price": 30,
+			"promotion": null	
+		},
+		"Bananas": {
+			"price": 15,
+			"promotion": null	
+		},
+		"Papayas":{
+			"price": 50,
+			"promotion": "threefortwo"	
+		}		
+	},
+	"promo_map":{
+		"threefortwo": "three for the price of two"
+	}
+}

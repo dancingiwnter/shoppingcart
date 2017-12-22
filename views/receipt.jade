@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	h1=title
+	div
+		p
+			|Thank you for choosing our products:
+	div
+		table
+			each item in receiptinfo.pricelist
+				tr
+					each col, colname in item
+						td.
+							#{col}
+		hr
+		div
+			p 
+				|Total Price:	 #{receiptinfo.totalprice}
